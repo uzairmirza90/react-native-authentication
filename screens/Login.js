@@ -36,19 +36,19 @@ const Login = ({navigation}) => {
                 <TextInput
                 style={styles.inputField}
                 placeholder="Email"
-                value={email}
-                onChangeText={(text) => setEmail(text)}
+                // value={email}
+                // onChangeText={(text) => setEmail(text)}
                 />
                 <TextInput 
                 style={styles.inputField}
                 placeholder="Password"
-                value={password}
-                onChangeText={(text) => setPassword(text)}
+                // value={password}
+                // onChangeText={(text) => setPassword(text)}
                 />
                 <View style={styles.buttons}>
                     <TouchableOpacity
                     style={styles.button}
-                    onPress={() => loginAPI(email, password)}
+                    // onPress={() => loginAPI(email, password)}
                     >
                         <Text style={styles.buttonText}>Login</Text>
                     </TouchableOpacity>
